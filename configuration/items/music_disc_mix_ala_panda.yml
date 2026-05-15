@@ -1,0 +1,38 @@
+items:
+  slinipack:music_disc_mix_ala_panda:
+    material: paper
+    texture: slinipack:item/custom/music_disc_mix_ala_panda
+    data:
+      item-name: "<yellow>Music Disc - Mix Ala Panda"
+      jukebox-playable: slinipack:mix_ala_panda
+      components:
+        minecraft:max_stack_size: 1
+jukebox-songs:
+  slinipack:mix_ala_panda:
+    sound: slinipack:slinipack.mix_ala_panda
+    length: 188.45  # music length in seconds
+    description: "Mix Ala Panda"  
+    comparator-output: 15
+    range: 32
+sounds:
+  slinipack:slinipack.mix_ala_panda:
+    replace: false
+    subtitle: "Mix Ala Panda"
+    sounds:
+      - name: "slinipack:custom/mix_ala_panda"
+        stream: true
+recipes:
+  slinipack:music_disc_mix_ala_panda:
+    type: shaped
+    pattern:
+      - "AAA"
+      - "BCD"
+      - "AAA"
+    ingredients:
+      A: "minecraft:cobbled_deepslate_slab"
+      B: "minecraft:black_dye"
+      C: "minecraft:obsidian"
+      D: "minecraft:red_dye"
+    result:
+      id: slinipack:music_disc_mix_ala_panda
+      count: 1

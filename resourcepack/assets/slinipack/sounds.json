@@ -18,6 +18,16 @@
         "stream": true
       }
     ]
+  },
+  "slinipack.mix_ala_panda": {
+    "replace": false,
+    "subtitle": "Mix Ala Panda",
+    "sounds": [
+      {
+        "name": "slinipack:custom/mix_ala_panda",
+        "stream": true
+      }
+    ]
   }
 
 }
