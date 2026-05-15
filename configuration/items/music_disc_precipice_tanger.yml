@@ -1,0 +1,36 @@
+items:
+  slinipack:music_disc_precipice_tanger:
+    material: paper
+    texture: slinipack:item/custom/music_disc_precipice_tanger
+    data:
+      item-name: "<yellow>Music Disc - Precipice Remix"
+      jukebox-playable: slinipack:precipice_tanger
+      components:
+        minecraft:max_stack_size: 1
+jukebox-songs:
+  slinipack:precipice_tanger:
+    sound: slinipack:slinipack.precipice_tanger
+    length: 213.2  # music length in seconds
+    description: "Precipice (Remix) - Tanger"  
+    comparator-output: 15
+    range: 32
+sounds:
+  slinipack:slinipack.precipice_tanger:
+    replace: false
+    subtitle: "Precipice (Remix) - Tanger"
+    sounds:
+      - name: "slinipack:custom/precipice_tanger"
+        stream: true
+recipes:
+  slinipack:music_disc_precipice_tanger:
+    type: shaped
+    pattern:
+      - "BBB"
+      - "BAB"
+      - "BBB"
+    ingredients:
+      A: "minecraft:iron_nugget"
+      B: "minecraft:gold_ingot"
+    result:
+      id: slinipack:music_disc_precipice_tanger
+      count: 1

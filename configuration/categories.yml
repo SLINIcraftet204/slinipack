@@ -1,0 +1,11 @@
+categories:
+  slinipack:slinipack:
+    priority: 3
+    name: <!i><white>SLINIs Pack</white>
+    lore:
+      - <!i><gray>Alles von SLINI geaddete Items
+    icon: slinipack:grave
+    list:
+      - slinipack:grave
+      - slinipack:music_disc_cursed_xylophone
+      - slinipack:music_disc_precipice_tanger

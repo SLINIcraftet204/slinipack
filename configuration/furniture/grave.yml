@@ -1,0 +1,42 @@
+items:
+  slinipack:grave:
+    texture: slinipack:block/custom/grave
+    data:
+      item_name: <!i>Grave
+    model: slinipack:block/custom/grave
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: any
+          alignment: any
+      furniture:
+#        events:
+#          - template: default:rotatable_furniture_8
+        settings:
+          item: slinipack:grave
+#          hit_times: 3
+          sounds:
+            break: minecraft:block.bamboo_wood.break
+            place: minecraft:block.bamboo_wood.place
+            hit: minecraft:block.bamboo_wood.hit
+        variants:
+          ground:
+            loot_spawn_offset: 0,0.4,0
+            elements:
+              - item: slinipack:grave
+                display_transform: NONE
+                shadow_radius: 0.4
+                shadow_strength: 0.5
+                billboard: FIXED
+                translation: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                blocks_building: true
+                invisible: true
+                width: 0.7
+                height: 1.2
+                interactive: true
+                seats:
+                  - 0,0,-0.1 0

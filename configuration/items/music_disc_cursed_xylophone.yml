@@ -1,0 +1,40 @@
+items:
+  slinipack:music_disc_cursed_xylophone:
+    material: paper
+    texture: slinipack:item/custom/music_disc_cursed_xylophone
+    data:
+      item-name: "<yellow>Music Disc - Cursed Xylophone"
+      jukebox-playable: slinipack:cursed_xylophone
+      components:
+        minecraft:max_stack_size: 1
+jukebox-songs:
+  slinipack:cursed_xylophone:
+    sound: slinipack:slinipack.cursed_xylophone
+    length: 91.8  # music length in seconds
+    description: "Cursed Xylophone"  
+    comparator-output: 15
+    range: 32
+sounds:
+  slinipack:slinipack.curse_xylophone:
+    replace: false
+    subtitle: "Cursed Xylophone"
+    sounds:
+      - name: "slinipack:custom/cursed_xylophone"
+        stream: true
+recipes:
+  slinipack:music_disc_cursed_xylophone:
+    type: shaped
+    pattern:
+      - "ABA"
+      - "FDE"
+      - "ACA"
+    ingredients:
+      A: "minecraft:blue_wool"
+      B: "minecraft:tnt"
+      C: "minecraft:stone"
+      D: "minecraft:copper_ingot"
+      E: "minecraft:sand"
+      F: "minecraft:grass_block"
+    result:
+      id: slinipack:music_disc_cursed_xylophone
+      count: 1

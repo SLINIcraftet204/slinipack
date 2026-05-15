@@ -1,0 +1,23 @@
+{
+  "slinipack.precipice_tanger": {
+    "replace": false,
+    "subtitle": "Precipice (Remix) - Tanger",
+    "sounds": [
+      {
+        "name": "slinipack:custom/precipice_tanger",
+        "stream": true
+      }
+    ]
+  },
+  "slinipack.cursed_xylophone": {
+    "replace": false,
+    "subtitle": "Cursed Xylophone",
+    "sounds": [
+      {
+        "name": "slinipack:custom/cursed_xylophone",
+        "stream": true
+      }
+    ]
+  }
+
+}
