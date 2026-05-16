@@ -1,9 +1,9 @@
 items:
-  slinipack:grave:
-    texture: slinipack:block/custom/grave
+  slinipack:modern_grave:
+    texture: slinipack:block/custom/modern_grave
     data:
-      item_name: <!i>Grave
-    model: slinipack:block/custom/grave
+      item_name: <!i>Modern Grave
+    model: slinipack:block/custom/modern_grave
     behavior:
       type: furniture_item
       rules:
@@ -12,7 +12,7 @@ items:
           alignment: any
       furniture:
         settings:
-          item: slinipack:grave
+          item: slinipack:modern_grave
           sounds:
             break: minecraft:block.stone.break
             place: minecraft:block.stone.place
@@ -21,7 +21,7 @@ items:
           ground:
             loot_spawn_offset: 0,0.4,0
             elements:
-              - item: slinipack:grave
+              - item: slinipack:modern_grave
                 display_transform: NONE
                 shadow_radius: 0.4
                 shadow_strength: 0.5
