@@ -7,7 +7,8 @@ categories:
     icon: slinipack:grave
     list:
       - slinipack:grave
+      - slinipack:new_grave
+      - slinipack:modern_grave
       - slinipack:music_disc_cursed_xylophone
       - slinipack:music_disc_precipice_tanger
       - slinipack:music_disc_mix_ala_panda
-      - slinipack:modern_grave
